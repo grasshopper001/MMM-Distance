@@ -1,7 +1,13 @@
 #emphasize{
-    font-size:35px;
+    font-size:45px;
     font-weight: bold;
 }
 #welcome{
-    font-size:30px;
+    font-size:40px;
+    width: 1000px;
+    text-align: center;    
+}
+#date{
+    font-size: 25px;
+    
 }

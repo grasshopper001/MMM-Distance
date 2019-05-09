@@ -13,7 +13,9 @@ Module.register("MMM-Distance",{
         wrapper.id="Distance-wrapper";
         var html=`
             <div id="Distance">
-            <p id="welcome">This elevator has travelled <span id="emphasize">${this.meter}</span> km since Apr 8, 2019.</p>
+            <p id="welcome">This elevator has travelled <span id="emphasize">${this.meter}</span> km
+            
+            <span id="date"> (since Apr 9, 2019)</span></p>
             </div>
         `
         wrapper.insertAdjacentHTML("afterbegin",html);
