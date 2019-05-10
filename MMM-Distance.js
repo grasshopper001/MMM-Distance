@@ -13,8 +13,8 @@ Module.register("MMM-Distance",{
         wrapper.id="Distance-wrapper";
         var html=`
             <div id="Distance">
-            <p id="welcome">This elevator has travelled <span id="emphasize">${this.meter}</span> km
-            
+            <p ><span id="welcome">This elevator has travelled <span id="emphasize">${this.meter}</span> km</span>
+            <br>
             <span id="date"> (since Apr 9, 2019)</span></p>
             </div>
         `
